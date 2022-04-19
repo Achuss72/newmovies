@@ -348,11 +348,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime'),
-                InlineKeyboardButton('NEW MOVIES', url='https://t.me/Team_NGC')
+                InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36'),
+                InlineKeyboardButton('NEW MOVIES', url='https://t.me/tester627')
             ],
             [
-                InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/NGCseries1')
+                InlineKeyboardButton('colLection', url=f'https://t.me/tester627')
             ]
             ]
             
@@ -400,11 +400,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime'),
-                InlineKeyboardButton('NEW MOVIES', url='https://t.me/Team_NGC')
+                InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36'),
+                InlineKeyboardButton('NEW MOVIES', url='https://t.me/tester627')
             ],
             [
-                InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/NGCseries1')
+                InlineKeyboardButton('collections', url='https://t.me/tester627')
             ]
             ]
         await query.answer()
@@ -419,15 +419,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('movie request', url=f'https://t.me/MalyalammoviesTeam')
             ],[
             InlineKeyboardButton('HELP', callback_data='help'),
             InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
             InlineKeyboardButton('INLINE MODE', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('NEW MOVIES', url='https://t.me/ngc_new_database_1'),
-            InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime')
+            InlineKeyboardButton('NEW MOVIES', url='https://t.me/tester627'),
+            InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36')
             ],[
             InlineKeyboardButton('✗CLOSE THIS MENU✗', callback_data='close_data')
         ]]
