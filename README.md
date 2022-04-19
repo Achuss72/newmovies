@@ -49,7 +49,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Ashik231/ngc_muthmani">
+<a href="https://heroku.com/deploy?template=https://github.com/Anoop61/ngc_muthmani">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -75,7 +75,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Anoop61/Vis_movies
+https://github.com/Anoop61/ngc_muthmani
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
