@@ -1,4 +1,4 @@
-@newgen_cinemazzz
+@MalyalammoviesTeam
 
 ## Features
 
@@ -75,7 +75,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Ashik231/ngc_muthmani
+git clone https://github.com/Anoop61/Vis_movies
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
