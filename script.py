@@ -3,16 +3,16 @@ class Script(object):
 
 My Official Name is <a href=https://t.me/{}>{}</a>!
 
-<b>എനിക്ക് നിങ്ങൾക്ക് സിനിമകൾ തരാൻ കഴിയും, എന്നെ @newgen_cinemazzz എന്ന ഗ്രൂപ്പിൽ പ്രവർത്തിക്കാൻ വേണ്ടി മാത്രമാണ് ഉണ്ടാക്കിയിരിക്കുന്നത്☺️ :)
+<b>എനിക്ക് നിങ്ങൾക്ക് സിനിമകൾ തരാൻ കഴിയും, എന്നെ @MalyalammoviesTeam എന്ന ഗ്രൂപ്പിൽ പ്രവർത്തിക്കാൻ വേണ്ടി മാത്രമാണ് ഉണ്ടാക്കിയിരിക്കുന്നത്☺️ :)
 
-ഇതാണ് എന്റെ മുതലാളി➡️@Unavailable4allTime </b>"""
+ഇതാണ് എന്റെ മുതലാളി➡️@Anonymousbro36 </b>"""
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: ☫𝐴𝑆𝐻𝐼𝐾彡
+➥ Creator: Anoop🥀
 ➥ Library: Pyrogram
 ➥ Language: Python 𝟹
 ➥ Data Base: MongoDB
@@ -24,10 +24,10 @@ IMDb is a Open source project.
 Source: <a href='https://github.com/Ashik231/ngc_muthmani'>GitHub - Click here 👈</a>
 
 <b>GROUP</b>
-- <a href='https://t.me/newgen_cinemazzz'>𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™</a>
+- <a href='https://t.me/MalyalammoviesTeam'>Movie request</a>
 
 <b>ADMIN</b>
-- <a href='https://t.me/Unavailable4allTime'>OWNER</a>"""
+- <a href='https://t.me/Anonymousbro36'>OWNER</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
