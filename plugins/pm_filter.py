@@ -857,7 +857,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/ngc_new_database_1'>◆NEW MOVIES◆</a></b>\n\n<b>✍️ Note:</b> <s>🔘ഈ മെസ്സേജ് 10 മിനുട്ട് വരെയെ ഗ്രൂപ്പിൽ കാണുകയുള്ളൂ🔘</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/Anonymousbro36'>◆Creater◆</a></b>\n\n<b>✍️ Note:</b> <s>🔘This message Deleted within 10 Minutes🔘</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
