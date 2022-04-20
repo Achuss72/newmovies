@@ -47,7 +47,7 @@ async def save_group(bot, message):
     else:
         for u in message.new_chat_members:
             zaute = [[
-            InlineKeyboardButton('🕯️മുതലാളി🕯️', url="https://t.me/Anonymousbro36")
+            InlineKeyboardButton('ADMIN', url="https://t.me/Anonymousbro36")
         ]]
             if (temp.MELCOW).get('welcome') is not None:
                 try:
@@ -55,7 +55,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>നിങ്ങൾക് വേണ്ട മൂവീസ് എല്ലാം ഇവിടെ കിട്ടും, അങ്ങനെ കിട്ടുന്നില്ലെങ്കിൽ എന്റെ മുതലാളിയോട് ചോദിച്ചാൽ മതി, മുതലാളി സെറ്റ് ആക്കി തരും😉</b>",
+            text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>നിങ്ങൾക്ക് ഏത് ചിത്രം വേണമെങ്കിലും ഇവിടെ ആവശ്യപ്പെടാം♥️ ആവശ്യപ്പെടുമ്പോൾ വർഷം കൂടെ പറയുക🤗</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
