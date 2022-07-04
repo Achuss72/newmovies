@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime')
+                InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36')
             ],
             [
                 InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -38,15 +38,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('Malayalam movies™', url=f'https://t.me/MalyalammoviesTeam')
             ],[
             InlineKeyboardButton('HELP', callback_data='help'),
             InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
             InlineKeyboardButton('INLINE MODE', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('NEW MOVIES', url='https://t.me/ngc_new_database_1'),
-            InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime')
+            InlineKeyboardButton('NEW MOVIES', url='https://t.me/+g8H_W9Y6FB1iYzg1'),
+            InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -85,15 +85,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('Malayalam movies™', url=f'https://t.me/MalyalammoviesTeam')
             ],[
             InlineKeyboardButton('HELP', callback_data='help'),
             InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
             InlineKeyboardButton('INLINE MODE', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('NEW MOVIES', url='https://t.me/ngc_new_database_1'),
-            InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime')
+            InlineKeyboardButton('NEW MOVIES', url='https://t.me/+g8H_W9Y6FB1iYzg1'),
+            InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -124,11 +124,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('OWNER', url='https://t.me/Unavailable4allTime'),
-            InlineKeyboardButton('MAIN GROUP', url='https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('OWNER', url='https://t.me/Anonymousbro36'),
+            InlineKeyboardButton('MAIN GROUP', url='https://t.me/MalyalammoviesTeam')
         ],
         [
-            InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/newgen_cinemazzz_series')
+            InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/+dcGYHE8Qng00OWFl')
         ]
         ]
     await client.send_cached_media(
