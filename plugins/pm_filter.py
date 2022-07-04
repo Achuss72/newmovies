@@ -352,7 +352,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('NEW MOVIES', url='https://t.me/MalyalammoviesTeam')
             ],
             [
-                InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/NGCseries1')
+                InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/+dcGYHE8Qng00OWFl')
             ]
             ]
             
@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('NEW MOVIES', url='https://t.me/MalyalammoviesTeam')
             ],
             [
-                InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/NGCseries1')
+                InlineKeyboardButton('SERIES CHANNEL', url=f'https://t.me/+dcGYHE8Qng00OWFl')
             ]
             ]
         await query.answer()
@@ -861,25 +861,25 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(600)
+            await asyncio.sleep(31536000)
             await hehe.delete()
             await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(600)
+            await asyncio.sleep(31536000)
             await hmm.delete()
             await message.delete()
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_photo(photo="https://telegra.ph/file/82b5bbbab6d5e5593b6b2.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(600)
+            await asyncio.sleep(31536000)
             await fek.delete()
             await msg.delete()
     else:
         fuk = await message.reply_photo(photo="https://telegra.ph/file/8b42f6caf6ef5fd76766f.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(600)
+        await asyncio.sleep(31536000)
         await fuk.delete()
         await msg.delete()
     if spoll:
