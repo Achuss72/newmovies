@@ -123,7 +123,7 @@ async def advantage_spoll_choker(bot, query):
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit(f'⚠️ Hey, {query.from_user.first_name}! താങ്കൾ ചോദിച്ച സിനിമ എന്റെ ഡാറ്റാബേസിൽ ഇല്ല, മുതലാളിയോട് ചോദിച്ചു നോക്കു😣 ⚠️')
+        k = await query.message.edit(f'⚠️ Hey, {query.from_user.first_name}! താങ്കൾ ചോദിച്ച സിനിമ എന്റെ ഡാറ്റാബേസിൽ ഇല്ല, മുതലാളിയോട് ചോദിച്ചു നോക്കു😣 ')
         await asyncio.sleep(10)
         await k.delete()
     
@@ -857,7 +857,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/ngc_new_database_1'>◆NEW MOVIES◆</a></b>\n\n<b>✍️ Note:</b> <s>🔘ഈ മെസ്സേജ് 10 മിനുട്ട് വരെയെ ഗ്രൂപ്പിൽ കാണുകയുള്ളൂ🔘</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+g8H_W9Y6FB1iYzg1'>◆NEW MOVIES◆</a></b>\n\n<b>✍️ Note:</b> <s>🔘Share 🔘</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
